@@ -1,0 +1,32 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+    <receita>
+
+        <cabecalho> 
+            <foto>foto.jpg </foto> 
+            <nome>Ana Maria Marina, </nome>
+            <idade unidade="anos">7</idade> 
+        </cabecalho>
+
+        <corpo>
+            <remedio_1>
+                <tipo>Uso Interno</tipo>
+                <medicacao>Xarope SemTosse</medicacao>
+                <quantidade>1 colher 3x ao dia</quantidade>
+            </remedio_1>
+            
+            <remedio_2>
+                <tipo>Uso Externo</tipo>
+                <medicacao>Gyellow</medicacao>
+                <quantidade>Aplicar no braço 1x ao dia</quantidade>
+            </remedio_2>
+        </corpo>
+        
+        <rodape>
+            <assinatura>ASSINATURA</assinatura>
+            <linha>     ________________</linha>
+            <medico>        Dr. Juca</medico>
+            <data>                      20/10/2001</data>
+        </rodape>
+
+    </receita>
