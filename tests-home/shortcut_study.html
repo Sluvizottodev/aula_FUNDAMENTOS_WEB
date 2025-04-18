@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo HTML - Características Importantes</title>
+</head>
+<body>
+  <h1>Resumo HTML - Características Importantes</h1>
+
+  <h2>1. Estrutura Básica</h2>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Conteúdo da página
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+  <h2>2. Elementos sem Fechamento (void elements)</h2>
+  <ul>
+    <li><code>&lt;br&gt;</code> - quebra de linha</li>
+    <li><code>&lt;img&gt;</code> - imagem</li>
+    <li><code>&lt;input&gt;</code> - campo de formulário</li>
+    <li><code>&lt;hr&gt;</code> - linha horizontal</li>
+    <li><code>&lt;meta&gt;</code> - metadados</li>
+    <li><code>&lt;link&gt;</code> - ligação com arquivos externos</li>
+  </ul>
+
+  <h2>3. Elementos Semânticos</h2>
+  <ul>
+    <li><code>&lt;header&gt;</code> - cabeçalho da página ou seção</li>
+    <li><code>&lt;nav&gt;</code> - navegação</li>
+    <li><code>&lt;main&gt;</code> - conteúdo principal</li>
+    <li><code>&lt;article&gt;</code> - conteúdo independente</li>
+    <li><code>&lt;section&gt;</code> - seção de conteúdo</li>
+    <li><code>&lt;aside&gt;</code> - conteúdo complementar</li>
+    <li><code>&lt;footer&gt;</code> - rodapé</li>
+  </ul>
+
+  <h2>4. Formulários</h2>
+  <pre><code>&lt;form action="/enviar" method="post"&gt;
+  &lt;label for="email"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email" required&gt;
+
+  &lt;label for="senha"&gt;Senha:&lt;/label&gt;
+  &lt;input type="password" id="senha" name="senha" required&gt;
+
+  &lt;button type="submit"&gt;Entrar&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+
+  <h2>5. Acessibilidade</h2>
+  <ul>
+    <li><strong>alt</strong> em <code>&lt;img&gt;</code> - descrição alternativa</li>
+    <li><strong>aria-label</strong>, <strong>aria-hidden</strong> - atributos ARIA para leitores de tela</li>
+    <li><strong>label + for</strong> - associar rótulo ao input</li>
+    <li><strong>tabindex</strong> - controle de navegação com Tab</li>
+  </ul>
+
+  <h2>6. Comentários</h2>
+  <pre><code>&lt;!-- Este é um comentário HTML --&gt;</code></pre>
+
+  <h2>7. Incorporar Conteúdo</h2>
+  <ul>
+    <li><code>&lt;iframe src="site.html"&gt;</code> - incorpora outra página</li>
+    <li><code>&lt;video&gt;</code> e <code>&lt;audio&gt;</code> - mídia com suporte nativo</li>
+    <li><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code> - JavaScript externo</li>
+    <li><code>&lt;link rel="stylesheet" href="style.css"&gt;</code> - CSS externo</li>
+  </ul>
+
+  <h2>8. Outras Tags Úteis</h2>
+  <ul>
+    <li><code>&lt;strong&gt;</code> e <code>&lt;em&gt;</code> - ênfase semântica</li>
+    <li><code>&lt;span&gt;</code> e <code>&lt;div&gt;</code> - contêineres genéricos</li>
+    <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code> - listas</li>
+    <li><code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, <code>&lt;th&gt;</code> - tabelas</li>
+    <li><code>&lt;details&gt;</code> e <code>&lt;summary&gt;</code> - conteúdo expansível</li>
+  </ul>
+
+  <footer>
+    <p><em>Atualizado em abril de 2025.</em></p>
+  </footer>
+</body>
+</html>
