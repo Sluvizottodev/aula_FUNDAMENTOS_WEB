@@ -24,6 +24,14 @@ Segundo o consórcio **W3C**, a tecnologia padrão para a estruturação de pág
 
 ---
 
+## 📌 Anotações Extras
+
+📚 Durante o curso, estou criando um **Gist** com minhas anotações extras e informações adicionais que estou aprendendo. Confira no link abaixo para mais detalhes:
+
+🔗 [Anotações Extras - Gist](https://gist.github.com/Sluvizottodev/9f8db7dff66a77e32ea8a9c78270f6ee)
+
+---
+
 ## 🎯 Objetivos
 ✅ Apresentação da arquitetura da Internet e da Web  
 ✅ Análise de problemas e formulação de páginas Web por meio de linguagem de marcação  
