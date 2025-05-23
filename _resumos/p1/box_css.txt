@@ -3,8 +3,6 @@ Em CSS, quase todo elemento HTML é tratado como uma “caixa” (box). Essa cai
 🧱 BOX MODEL (MODELO DE CAIXA)
 Esse modelo representa quatro camadas ao redor de um conteúdo:
 
-java
-Copiar código
 | MARGIN  |   ← Espaço externo
 | BORDER  |   ← Borda ao redor da caixa
 | PADDING |   ← Espaço interno (entre conteúdo e borda)
