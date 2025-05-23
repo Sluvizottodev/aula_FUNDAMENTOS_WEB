@@ -1,0 +1,119 @@
+Em CSS, quase todo elemento HTML é tratado como uma “caixa” (box). Essa caixa segue um modelo chamado:
+
+🧱 BOX MODEL (MODELO DE CAIXA)
+Esse modelo representa quatro camadas ao redor de um conteúdo:
+
+java
+Copiar código
+| MARGIN  |   ← Espaço externo
+| BORDER  |   ← Borda ao redor da caixa
+| PADDING |   ← Espaço interno (entre conteúdo e borda)
+| CONTENT |   ← Onde está o conteúdo (texto, imagem, etc.)
+🧮 COMO FUNCIONA A LARGURA E ALTURA DE UM BOX
+Padrão (box-sizing: content-box):
+A largura e altura se aplicam apenas ao conteúdo. Padding e borda são adicionados depois.
+
+width: 200px;
+padding: 20px;
+border: 5px solid black;
+Tamanho total = 200 (content) + 40 (padding) + 10 (border) = 250px
+
+Recomendado (box-sizing: border-box):
+
+A largura e altura incluem padding e borda. Isso evita “estourar” o layout.
+
+* {
+  box-sizing: border-box;
+}
+
+
+🧾 PROPRIEDADES IMPORTANTES PARA CONTROLAR UM BOX
+
+📏 Largura e altura
+
+width: 300px;
+height: 200px;
+max-width: 100%;
+min-height: 100px;
+🎁 Padding (espaço interno)
+
+
+padding: 20px; /* todos os lados */
+padding: 10px 15px; /* vertical | horizontal */
+padding: 10px 15px 5px 8px; /* cima | direita | baixo | esquerda */
+📦 Margin (espaço externo)
+
+
+margin: 20px;
+margin: 0 auto; /* centraliza horizontalmente */
+🖼️ Border (borda)
+
+
+border: 2px solid #000;
+border-radius: 10px; /* cantos arredondados */
+
+📌 CENTRALIZAR UM BOX
+Horizontalmente (em uma div com largura definida):
+
+div {
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+Centralizar vertical e horizontal com Flexbox:
+
+.container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;
+}
+
+🎨 OUTRAS PROPRIEDADES COMUNS EM BOXES
+
+Cor de fundo:
+
+background-color: #f5f5f5;
+
+
+Sombra:
+
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+Exibir/ocultar box:
+
+display: none; /* esconde */
+display: block; /* mostra */
+
+
+Bordas internas entre caixas (gap):
+
+display: flex;
+gap: 20px;
+
+
+💡 EXEMPLO COMPLETO DE UM BOX
+
+<div class="meu-box">
+  <h2>Olá Mundo</h2>
+  <p>Esse é um exemplo de box.</p>
+</div>
+
+.meu-box {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #eee;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+✅ DICAS PRÁTICAS
+Sempre use box-sizing: border-box no começo do CSS.
+Para centralizar qualquer caixa horizontalmente, use margin: 0 auto.
+Use Flexbox para layouts modernos e responsivos.
+Teste sempre com diferentes tamanhos de tela.
