@@ -1,0 +1,22 @@
+Unidades de Medida CSS
+📌 O que é:
+CSS usa unidades para definir tamanhos (fontes, margens, etc.).
+
+📚 Tipos:
+px → pixels fixos (ex: 16px)
+% → relativo ao pai (ex: width: 50%)
+em → relativo à fonte do pai (ex: 1.5em)
+rem → relativo à fonte raiz (<html>)
+vh, vw → % da tela (100vh = altura total da tela)
+
+🎯 Exemplo prático:
+
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2rem; /* 32px */
+}
+p {
+  font-size: 1.2em; /* relativo ao pai */
+}

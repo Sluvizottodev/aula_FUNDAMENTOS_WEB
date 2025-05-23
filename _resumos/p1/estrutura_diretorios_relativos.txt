@@ -1,0 +1,30 @@
+Caminhos Relativos e Organização de Arquivos
+
+📌 O que é:
+São instruções para o navegador localizar outros arquivos (como imagens, CSS, scripts ou links).
+
+📚 Tipos de caminhos:
+./arquivo.html → arquivo na mesma pasta.
+
+../ → volta uma pasta (nível acima).
+
+pasta/arquivo.html → entra na pasta e abre o arquivo.
+
+/ → raiz do site (cuidado em projetos locais).
+
+🧠 Exemplo real:
+Suponha que você tenha a seguinte estrutura de diretórios:
+site/
+├── index.html
+├── css/
+│   └── estilo.css
+└── img/
+    └── logo.png
+Para acessar logo.png dentro de index.html:
+
+<img src="img/logo.png">
+Para acessar estilo.css:
+
+html
+Copiar código
+<link rel="stylesheet" href="css/estilo.css">

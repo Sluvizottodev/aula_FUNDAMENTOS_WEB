@@ -1,0 +1,16 @@
+Centralização de Elementos
+
+📌 Centralizar texto:
+
+text-align: center;
+📌 Centralizar uma caixa:
+
+width: 300px;
+margin: 0 auto;
+📌 Centralizar com Flexbox (mais moderno e flexível):
+
+.container {
+  display: flex;
+  justify-content: center;  /* eixo horizontal */
+  align-items: center;      /* eixo vertical */
+}
