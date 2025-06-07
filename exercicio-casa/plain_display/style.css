@@ -1,25 +1,128 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
-    background-color: #333;
-    padding: 20px;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; 
-}
-header h1, h3{
-    color: #fff;
-    text-align: center;
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header button{
-    display: block;
-    background-color: #07fa64;
-    margin: 0 auto; /*define margem sup e inf*/
-    border: none;
+body {
+  font-family: sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+header nav a.active {
+  background-color: #00cc44;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 30px;
+  font-size: 22px;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.section {
+  padding: 60px 30px;
+  text-align: center;
+  background: white;
+}
+
+.section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section h2,
+.section p,
+.section .btn {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.green {
+  background: #00cc44;
+  color: white;
+}
+
+.section.green h2,
+.section.green p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  gap: 25px;
+}
+
+.feature-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 240px;
+  padding: 25px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  background: #00cc44;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 30px;
+  font-size: 16px;
+}
+
+footer a {
+  color: #00cc44;
+  text-decoration: none;
 }
