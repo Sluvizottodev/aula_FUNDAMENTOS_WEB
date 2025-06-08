@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('img/bokeh_car_lights_bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #00aaff;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+section.features,
+section.team {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f4f4f4;
+}
+
+.feature-boxes,
+.team-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+.team-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.team-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-text h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.team-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.box {
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #2c2c2c;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+    max-width: 250px;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+    list-style-type: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.footer-bottom i {
+    margin: 0 10px;
+    color: #ccc;
+    cursor: pointer;
+}
