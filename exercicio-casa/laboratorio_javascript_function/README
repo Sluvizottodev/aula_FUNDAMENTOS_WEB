@@ -30,21 +30,21 @@ Implemente todos os exercícios descritos abaixo neste arquivo.
 
 ## 🧪 Etapas do Laboratório
 
-### 🔹 Parte 1 – Funções Simples (10 min)
+### 🔹 Parte 1 – Funções Simples 
 
 - Crie uma função `saudacao()` que imprime uma mensagem de boas-vindas no console.
 - **Desafio:** Crie uma função `mostrarHora()` que imprime a hora atual usando `new Date()`.
 
 ---
 
-### 🔹 Parte 2 – Funções com Parâmetros (10 min)
+### 🔹 Parte 2 – Funções com Parâmetros
 
 - Crie uma função `saudacaoPersonalizada(nome)` que imprime uma saudação personalizada.
 - **Desafio:** Crie uma função `calcularAreaRetangulo(largura, altura)` que imprime a área do retângulo.
 
 ---
 
-### 🔹 Parte 3 – Funções com Retorno (15 min)
+### 🔹 Parte 3 – Funções com Retorno 
 
 - Crie uma função `somar(a, b)` que retorna a soma de dois números.
 - Armazene o resultado em uma variável e exiba no console.
@@ -52,7 +52,7 @@ Implemente todos os exercícios descritos abaixo neste arquivo.
 
 ---
 
-### 🔹 Parte 4 – Mini-projeto: Sistema de Notas (15 min)
+### 🔹 Parte 4 – Mini-projeto: Sistema de Notas
 
 - Crie uma função `calcularMedia(n1, n2, n3)` que retorna a média entre três notas.
 - Crie uma função `verificarSituacao(media)` que retorna:
